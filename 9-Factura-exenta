@@ -1,5 +1,5 @@
 /*
-		Propósito: Calculo de Factura con Descuento
+		PropÃ³sito: Calculo de Factura con Descuento
 		
 		Autor: Ernesto Brizuela
 		Fecha: 08/06/2022
@@ -27,7 +27,7 @@
 	 cout << "Ingrese el descuento (0, 10, 15, 20): ";
 	 cin >> descuento;
 	 
-	 cout << "¿La factura está exenta? S o N: ";
+	 cout << "Â¿La factura estÃ¡ exenta? S o N: ";
 	 cin >> estaExenta;
 	 
 	 if(estaExenta == 'S'|| estaExenta == 's')
