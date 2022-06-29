@@ -1,5 +1,5 @@
 /*
-		Propósito: Calculo de Notas
+		PropÃ³sito: Calculo de Notas
 		
 		Autor: Ernesto Brizuela
 		Fecha: 15/06/2022
