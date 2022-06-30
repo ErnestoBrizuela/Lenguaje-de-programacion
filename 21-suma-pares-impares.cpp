@@ -1,5 +1,5 @@
 /*
-		Propósito: Suma de Pares e Impares
+		PropÃ³sito: Suma de Pares e Impares
 		
 		Autor: Ernesto Brizuela
 		Fecha: 22/06/2022
