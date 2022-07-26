@@ -1,0 +1,34 @@
+/*
+		Propósito: Funciones de tipo int
+		
+		Autor: Ernesto Brizuela
+		Fecha: 26/07/2022
+		Hora: 2:00 PM
+*/
+ 
+ #include <iostream>
+ #include <cmath>
+ #include <iomanip>
+ 
+ using namespace std;
+ 
+int sumar(int a, int b){
+	return a + b;
+}
+
+int main(int argc, char const *argv[])
+{
+	system("cls");
+	
+	cout << sumar(5, 7);
+	cout << endl;
+	cout << sumar(15, 7);
+	cout << endl;
+	cout << sumar(5, 71);
+	cout << endl;
+	cout << sumar(9, 8);
+	cout << endl;
+	
+	return 0;	
+}
+
