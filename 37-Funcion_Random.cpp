@@ -1,5 +1,5 @@
 /*
-		Propósito: Tarea 9
+		PropÃ³sito: Tarea 9
 		
 		Autor: Ernesto Brizuela
 		Fecha: 20/07/2022
