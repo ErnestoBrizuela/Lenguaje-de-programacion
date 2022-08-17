@@ -1,8 +1,8 @@
 #include <iostream>
-#include "productos.h"
-#include "factura.h"
 
 using namespace std;
+
+extern void preguntas(int opcion);
 
 void menu()
 {
@@ -20,10 +20,8 @@ void menu()
 		cout << endl;
 		cout << endl;
 		
-		cout << "1 - Bebidas Calientes" << endl;
-		cout << "2 - Bebidas Frias" << endl;
-		cout << "3 - Reposteria" << endl;
-		cout << "4 - Imprimir Factura" << endl;
+		cout << "1 - Jugar" << endl;
+		cout << "2 - Ver Top Jugadores" << endl;
 		cout << "0 - Salir" << endl;
 		
 		cout << endl;
@@ -34,15 +32,12 @@ void menu()
 		{
 			break;
 		}
-		if(opcion == 4)
+		else
 		{
-			imprimirFactura();
-		}
-		else{
-			productos(opcion);
+			preguntas(opcion);
 		}
 	
 		
 	}
 
-}			
+}

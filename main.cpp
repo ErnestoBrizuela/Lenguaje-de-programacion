@@ -1,42 +1,12 @@
-#include<iostream>
-
-#include<windows.h>
-
-#include "juego.h"
+#include <iostream>
 
 using namespace std;
 
-#define ARRIBA 72
+extern void menu();
 
-#define IZQUIERDA 75
-
-#define ABAJO 80
-
-#define DERECHA 77
-
-#define ESC 27
-
-int main(){
-	char tecla;
-	int puntos = 0;
-	int xPos = 30, yPos = 20;
+int main(int argc, char** argv) {
 	
-	inicializarArreglo();
-	dificultad();
-	gotoxy(50,2);
-	cout << puntos;
-	pintar();
-	gotoxy(xPos, yPos);cout <<(char)4;
+	menu();
 	
-	while(tecla != ESC && gameover() ){
-		proceso(tecla, puntos);
-	}
-	
-	if ( !gameover()){
-		MessageBox(NULL, "Has perdido","Perdedor", MB_OK);
-		system("cls");
-	}
-	
-	system("pause>NULL");
 	return 0;
 }
